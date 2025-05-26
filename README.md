@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Loan Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based web app for loan application and management, with user registration, login, loan application, dashboard, and EMI calculator features.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- User Registration & Login
+- User Dashboard with loan overview
+- Apply for new loans
+- EMI Calculator for easy repayment planning
+- Edit user account settings
+- LocalStorage for data persistence
+- SweetAlert2 for alerts and confirmations
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
 
-### `npm test`
+### Registration Page  
+![Registration Page]![image](https://github.com/user-attachments/assets/c206a967-4474-46b4-a3d2-79b0c5246db8)
+ 
+*Users can create a new account by filling in their details.*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+### Login Page  
+![Login Page]
+![image](https://github.com/user-attachments/assets/807130bf-ea14-4625-8e97-40f54bcdc59c)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*Users log in with username and password.*
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### User Dashboard  
+![User Dashboard]
+![image](https://github.com/user-attachments/assets/a6551c0a-7a34-402d-ac8b-8458bfc695ec)
+![image](https://github.com/user-attachments/assets/76c4afaa-88a8-4fc8-8d01-221c34fbfc80)
 
-### `npm run eject`
+*Overview of user details and loan status.*
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Apply Loan Page  
+![Apply Loan]
+![image](https://github.com/user-attachments/assets/5465aaf9-a8aa-4971-8de6-d5d24b34d7e3)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+*Form to apply for a new loan with amount, tenure, and purpose.*
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+### EMI Calculator  
+![EMI Calculator]
+![image](https://github.com/user-attachments/assets/9bac43fd-7cd6-4899-900e-1c2b3575bae4)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+*Calculate your monthly EMI based on loan amount, interest rate, and tenure.*
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## How to Run
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clone the repo  
+2. Run `npm install`  
+3. Run `npm start` to launch the app
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Dependencies
 
-### Making a Progressive Web App
+- React  
+- react-router-dom  
+- SweetAlert2  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+MIT License
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*Created by Your Name*
