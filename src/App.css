@@ -1,0 +1,104 @@
+/* App.css */
+
+.container {
+  --bs-body-color: #1c1c1f;
+  --bs-body-bg: #ffffff;
+  --ezy-theme-color: rgb(13, 110, 253);
+  --ezy-theme-color-rgb: 13, 110, 253;
+  --ezy-form-card-bg: #ffffff;
+  --ezy-form-card-shadow: 6px 0px 118px rgba(0, 0, 0, 0.08);
+  --ezy-border-color: rgba(0, 0, 0, 0.125);
+
+
+  color: var(--bs-body-color);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.login_Container {
+  background-color: var(--ezy-form-card-bg);
+  box-shadow: var(--ezy-form-card-shadow);
+  border: 1px solid var(--ezy-border-color);
+  padding: 40px;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: var(--bs-body-color);
+}
+
+.user_input {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.user_input label {
+  font-size: 15px;
+  font-weight: 500;
+  opacity: 0.8;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.user_input input,
+.user_input select {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 1px solid var(--ezy-border-color);
+  border-radius: 0;
+  background-color: transparent;
+  color: var(--bs-body-color);
+  opacity: 0.75;
+  transition: border 0.3s ease;
+}
+
+.user_input input:focus,
+.user_input select:focus {
+  outline: none;
+  border-color: var(--ezy-theme-color);
+}
+
+.button {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.button input[type="submit"] {
+  background-color: var(--ezy-theme-color);
+  color: #fff;
+  padding: 12px 30px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button input[type="submit"]:hover {
+  background-color: rgba(var(--ezy-theme-color-rgb), 0.9);
+}
+
+h5 {
+  margin-top: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+a h5 {
+  text-decoration: underline;
+  color: var(--bs-body-color);
+  transition: color 0.3s ease;
+}
+
+a h5:hover {
+  color: var(--ezy-theme-color);
+}

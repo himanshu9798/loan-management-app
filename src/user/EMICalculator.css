@@ -1,0 +1,78 @@
+/* src/components/EMICalculator.css */
+
+.emi-calculator-container {
+    max-width: 450px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 0.1);
+    text-align: center;
+  }
+  
+  .emi-calculator-container h2 {
+    margin-bottom: 25px;
+    color: #1a73e8;
+  }
+  
+  .emi-form .form-group {
+    margin-bottom: 18px;
+    text-align: left;
+  }
+  
+  .emi-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #444;
+  }
+  
+  .emi-form input {
+    width: 100%;
+    padding: 10px 8px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .calculate-btn {
+    background-color: #1a73e8;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .calculate-btn:hover {
+    background-color: #155ab6;
+  }
+  
+  .emi-result {
+    margin-top: 25px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #2e7d32;
+  }
+  
+  .back-btn {
+    margin-top: 30px;
+    background-color: #aaa;
+    color: #fff;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-btn:hover {
+    background-color: #888;
+  }
+  
