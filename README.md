@@ -52,9 +52,17 @@ A React-based web app for loan application and management, with user registratio
 
 ### EMI Calculator  
 ![EMI Calculator]
-![image](https://github.com/user-attachments/assets/9bac43fd-7cd6-4899-900e-1c2b3575bae4)
+![image](https://github.com/user-attachments/assets/3e7d5373-ff00-44e4-9434-04280dd54941)
+![image](https://github.com/user-attachments/assets/908b07ee-67e7-40f2-b5a7-e94914aa32a9)
+
+
 
 *Calculate your monthly EMI based on loan amount, interest rate, and tenure.*
+
+
+Admin side
+![image](https://github.com/user-attachments/assets/b660c989-d002-4ab4-a4ac-374ada6b281d)
+
 
 ---
 
