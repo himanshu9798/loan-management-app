@@ -1,0 +1,50 @@
+/* src/components/ApplyLoan.css */
+
+.apply-loan-container {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #fefefe;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .apply-loan-container h2 {
+    margin-bottom: 20px;
+    color: #1a73e8;
+    font-size: 24px;
+  }
+  
+  .apply-loan-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .apply-loan-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  
+  .apply-loan-form input,
+  .apply-loan-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .submit-loan-btn {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .submit-loan-btn:hover {
+    background-color: #155ab6;
+  }
+  

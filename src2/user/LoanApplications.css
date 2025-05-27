@@ -1,0 +1,53 @@
+/* src/components/LoanApplications.css */
+
+.loan-applications-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 0.1);
+  }
+  
+  .loan-applications-container h2 {
+    margin-bottom: 20px;
+    color: #1a73e8;
+  }
+  
+  .loans-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .loans-table th,
+  .loans-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  .loans-table tr:hover {
+    background-color: #0c7dee;
+  }
+  
+  .status {
+    font-weight: 700;
+    padding: 5px 12px;
+    border-radius: 12px;
+    color: white;
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .status.pending {
+    background-color: #f0ad4e;
+  }
+  
+  .status.approved {
+    background-color: #5cb85c;
+  }
+  
+  .status.rejected {
+    background-color: #d9534f;
+  }
+  
